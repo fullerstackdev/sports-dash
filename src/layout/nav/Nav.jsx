@@ -2,11 +2,11 @@ import React, { useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import classNames from 'classnames';
 
-import { MENU_BEHAVIOUR, MENU_PLACEMENT } from 'constants.js';
+import { MENU_BEHAVIOUR, MENU_PLACEMENT } from '../../constants.js';
 import NavUserMenu from './NavUserMenu';
 import NavIconMenu from './NavIconMenu';
 import MainMenu from './main-menu/MainMenu';
-import NavLogo from './NavLogo';
+import NavLogo from './NavLogo.jsx';
 import NavMobileButtons from './NavMobileButtons';
 import { menuChangeAttrMenuAnimate, menuChangeCollapseAll } from './main-menu/menuSlice';
 import NavLanguageSwitcher from './NavLanguageSwitcher';

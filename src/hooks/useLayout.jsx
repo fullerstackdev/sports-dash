@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setThemeValues } from 'settings/settingsSlice';
+import { setThemeValues } from '../settings/settingsSlice';
 import useModalPaddingFix from './useModalPaddingFix';
 
 const useLayout = () => {

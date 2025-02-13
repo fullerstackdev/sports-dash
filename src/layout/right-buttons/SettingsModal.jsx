@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { Card, Figure, Modal } from 'react-bootstrap';
 
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
-import { LAYOUT, MENU_BEHAVIOUR, NAV_COLOR, RADIUS, THEME_COLOR } from 'constants.js';
+import { LAYOUT, MENU_BEHAVIOUR, NAV_COLOR, RADIUS, THEME_COLOR } from '../constants.js';
 import { menuChangeBehaviour } from 'layout/nav/main-menu/menuSlice';
 import { settingsChangeColor, settingsChangeLayout, settingsChangeNavColor, settingsChangeRadius } from 'settings/settingsSlice';
 

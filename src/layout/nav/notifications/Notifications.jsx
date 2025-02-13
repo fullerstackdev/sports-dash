@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 import { Dropdown } from 'react-bootstrap';
 import classNames from 'classnames';
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
-import { MENU_PLACEMENT } from 'constants.js';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
-import { layoutShowingNavMenu } from 'layout/layoutSlice';
-import { fetchNotifications } from './notificationSlice';
+import { MENU_PLACEMENT } from '../../constants.jsx';
+import CsLineIcons from '../../../cs-line-icons/CsLineIcons.jsx';
+import { layoutShowingNavMenu } from '../../layout/layoutSlice.jsx';
+import { fetchNotifications } from './notificationSlice.jsx';
 
 const NotificationsDropdownToggle = React.memo(
   React.forwardRef(({ onClick, expanded = false }, ref) => (

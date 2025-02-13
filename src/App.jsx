@@ -4,13 +4,13 @@ import React, { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 
 // import layout
-import Layout from 'layout/Layout';
+import Layout from './layout/Layout';
 
 // import routing modules
-import RouteIdentifier from 'routing/components/RouteIdentifier';
-import { getRoutes } from 'routing/helper';
-import routesAndMenuItems from 'routes.js';
-import Loading from 'components/loading/Loading';
+import RouteIdentifier from './routing/components/RouteIdentifier.jsx';
+import { getRoutes } from './routing/helper';
+import routesAndMenuItems from './routes.jsx';
+import Loading from './components/loading/Loading';
 
 const App = () => {
   const { currentUser, isLogin } = useSelector((state) => state.auth);

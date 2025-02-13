@@ -1,7 +1,7 @@
 /* Theme Settings & Niches Buttons */
 import React, { useState } from 'react';
 import { Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons';
 import SettingsModal from './SettingsModal';
 import NichesModal from './NichesModal';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { DEFAULT_PATHS } from 'config.js';
+import { DEFAULT_PATHS } from '../../config.js';
 
 const NavLogo = () => {
   return (

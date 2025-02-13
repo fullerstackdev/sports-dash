@@ -1,6 +1,6 @@
 import React from 'react';
 import { Modal } from 'react-bootstrap';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import CsLineIcons from './cs-line-icons/CsLineIcons.jsx';
 import SearchInput from './SearchInput';
 
 const SearchModal = ({ show, setShow }) => {

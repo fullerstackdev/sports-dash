@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import classNames from 'classnames';
 import { Col, Dropdown, Row } from 'react-bootstrap';
-import { MENU_PLACEMENT } from 'constants.js';
+import { MENU_PLACEMENT } from '../../constants.js';
 import CsLineIcons from 'cs-line-icons/CsLineIcons';
-import { layoutShowingNavMenu } from 'layout/layoutSlice';
+import { layoutShowingNavMenu } from '../layoutSlice.jsx';
 
 const NavUserMenuContent = () => (
   <div>

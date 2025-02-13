@@ -4,32 +4,32 @@ import { lazy } from 'react';
 import { DEFAULT_PATHS } from './config.js';
 
 const dashboards = {
-  elearning: lazy(() => import('./views/dashboards/ElearningDashboard')),
-  school: lazy(() => import('./views/dashboards/SchoolDashboard')),
+  elearning: lazy(() => import('./views/dashboards/ElearningDashboard.jsx')),
+  school: lazy(() => import('./views/dashboards/SchoolDashboard.jsx')),
 };
 const courses = {
-  explore: lazy(() => import('./views/courses/CoursesExplore')),
-  list: lazy(() => import('./views/courses/CoursesList')),
-  detail: lazy(() => import('./views/courses/CoursesDetail')),
+  explore: lazy(() => import('./views/courses/CoursesExplore.jsx')),
+  list: lazy(() => import('./views/courses/CoursesList.jsx')),
+  detail: lazy(() => import('./views/courses/CoursesDetail.jsx')),
 };
 const quiz = {
-  list: lazy(() => import('./views/quiz/QuizList')),
-  detail: lazy(() => import('./views/quiz/QuizDetail')),
-  result: lazy(() => import('./views/quiz/QuizResult')),
+  list: lazy(() => import('./views/quiz/QuizList.jsx')),
+  detail: lazy(() => import('./views/quiz/QuizDetail.jsx')),
+  result: lazy(() => import('./views/quiz/QuizResult.jsx')),
 };
 const paths = {
-  list: lazy(() => import('./views/paths/PathsList')),
-  detail: lazy(() => import('./views/paths/PathsDetail')),
+  list: lazy(() => import('./views/paths/PathsList.jsx')),
+  detail: lazy(() => import('./views/paths/PathsDetail.jsx')),
 };
 
 const instructor = {
-  list: lazy(() => import('./views/instructor/InstructorList')),
-  detail: lazy(() => import('./views/instructor/InstructorDetail')),
+  list: lazy(() => import('./views/instructor/InstructorList.jsx')),
+  detail: lazy(() => import('./views/instructor/InstructorDetail.jsx')),
 };
 const misc = {
-  player: lazy(() => import('./views/misc/Player')),
-  material: lazy(() => import('./views/misc/Material')),
-  syllabus: lazy(() => import('./views/misc/Syllabus')),
+  player: lazy(() => import('./views/misc/Player.jsx')),
+  material: lazy(() => import('./views/misc/Material.jsx')),
+  syllabus: lazy(() => import('./views/misc/Syllabus.jsx')),
 };
 
 const appRoot = DEFAULT_PATHS.APP.endsWith('/') ? DEFAULT_PATHS.APP.slice(1, DEFAULT_PATHS.APP.length) : DEFAULT_PATHS.APP;

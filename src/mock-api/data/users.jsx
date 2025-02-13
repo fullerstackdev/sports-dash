@@ -1,4 +1,4 @@
-import { SERVICE_URL } from '../config';
+import { SERVICE_URL } from '../../config';
 import api from '../api';
 
 const usersData = [

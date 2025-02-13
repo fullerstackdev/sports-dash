@@ -1,15 +1,15 @@
 import { lazy } from 'react';
 import { DEFAULT_PATHS } from '../config.js';
 
-const NotFound = lazy(() => import('../views/default/NotFound'));
-const Login = lazy(() => import('../views/default/Login'));
-const ForgotPassword = lazy(() => import('../views/default/ForgotPassword'));
-const Register = lazy(() => import('../views/default/Register'));
-const ResetPassword = lazy(() => import('../views/default/ResetPassword'));
-const Unauthorized = lazy(() => import('../views/default/Unauthorized'));
-const InvalidAccess = lazy(() => import('../views/default/InvalidAccess'));
+const NotFound = lazy(() => import('../views/default/NotFound.jsx'));
+const Login = lazy(() => import('../views/default/Login.jsx'));
+const ForgotPassword = lazy(() => import('../views/default/ForgotPassword.jsx'));
+const Register = lazy(() => import('../views/default/Register.jsx'));
+const ResetPassword = lazy(() => import('../views/default/ResetPassword.jsx'));
+const Unauthorized = lazy(() => import('../views/default/Unauthorized.jsx'));
+const InvalidAccess = lazy(() => import('../views/default/InvalidAccess.jsx'));
 const App = lazy(() => import('../App.jsx'));
-const Home = lazy(() => import('../views/default/Home'));
+const Home = lazy(() => import('../views/default/Home.jsx'));
 
 /*
 { path: "/path", exact: true, component: ViewHome },

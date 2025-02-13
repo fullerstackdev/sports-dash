@@ -5,18 +5,18 @@ import ReactDOM from 'react-dom/client';
 // Redux & Persist
 import { Provider } from 'react-redux';
 import { PersistGate } from 'reduxjs-toolkit-persist/integration/react';
-import { store, persistedStore } from './store';
+import { store, persistedStore } from './store.jsx';
 
 // React Helmet (for <head> management)
 import { Helmet } from 'react-helmet';
 import { REACT_HELMET_PROPS } from './config';
 
 // Multi-language support
-import LangProvider from './lang/LangProvider';
+import LangProvider from './lang/LangProvider.jsx';
 
 // Routing
 import { BrowserRouter } from 'react-router-dom';
-import RouteIdentifier from './routing/components/RouteIdentifier';
+import RouteIdentifier from './routing/components/RouteIdentifier.jsx';
 import Loading from './components/loading/Loading';
 import { getLayoutlessRoutes } from './routing/helper';
 import defaultRoutes from './routing/default-routes';
@@ -26,7 +26,7 @@ import routesAndMenuItems from './routes';
 import { Slide, ToastContainer } from 'react-toastify';
 
 // Mock API (if you want the fake data from Acorn)
-import './mock-api';
+import './mock-api/index.jsx';
 
 // If you have global CSS or SCSS for Vite, you can import it here
 import './index.css';

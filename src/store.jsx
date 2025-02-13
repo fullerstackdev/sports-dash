@@ -6,13 +6,13 @@ import persistStore from 'reduxjs-toolkit-persist/es/persistStore';
 import { FLUSH, PAUSE, PERSIST, PURGE, REGISTER, REHYDRATE } from 'reduxjs-toolkit-persist/es/constants';
 
 // import theme reducers
-import settingsReducer from './settings/settingsSlice';
-import layoutReducer from './layout/layoutSlice';
-import langReducer from './lang/langSlice';
-import authReducer from './auth/authSlice';
-import menuReducer from './layout/nav/main-menu/menuSlice';
-import notificationReducer from './layout/nav/notifications/notificationSlice';
-import scrollspyReducer from './components/scrollspy/scrollspySlice';
+import settingsReducer from './settings/settingsSlice.jsx';
+import layoutReducer from './layout/layoutSlice.jsx';
+import langReducer from './lang/langSlice.jsx';
+import authReducer from './auth/authSlice.jsx';
+import menuReducer from './layout/nav/main-menu/menuSlice.jsx';
+import notificationReducer from './layout/nav/notifications/notificationSlice.jsx';
+import scrollspyReducer from './components/scrollspy/scrollspySlice.jsx';
 
 // import persist key
 import { REDUX_PERSIST_KEY } from './config.js';

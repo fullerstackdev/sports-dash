@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { DEFAULT_SETTINGS } from './config.js';
+import { DEFAULT_SETTINGS } from '../config.js';
 
 const getComputedValues = () => {
   const rootStyle = window.getComputedStyle(document.body);

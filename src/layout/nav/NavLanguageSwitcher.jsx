@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import { Dropdown } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import classNames from 'classnames';
-import { MENU_PLACEMENT } from 'constants.js';
-import { changeLang } from 'lang/langSlice';
-import { layoutShowingNavMenu } from 'layout/layoutSlice';
+import { MENU_PLACEMENT } from '../../constants.js';
+import { changeLang } from '../../lang/langSlice.jsx';
+import { layoutShowingNavMenu } from '../layoutSlice.jsx';
 
 const MENU_NAME = 'NavLanguageSwitcher';
 const NavLanguageSwitcher = () => {
