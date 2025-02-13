@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import classNames from 'classnames';
 import { Col, Dropdown, Row } from 'react-bootstrap';
 import { MENU_PLACEMENT } from '../../constants.js';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
 import { layoutShowingNavMenu } from '../layoutSlice.jsx';
 
 const NavUserMenuContent = () => (

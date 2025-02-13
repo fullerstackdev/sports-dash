@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
 import ScrollspyMobile from 'components/scrollspy/ScrollspyMobile';
 import { menuChangeAttrMobile, menuChangeNavClasses } from './main-menu/menuSlice';
 
