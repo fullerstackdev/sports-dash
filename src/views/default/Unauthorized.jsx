@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import LayoutFullpage from 'layout/LayoutFullpage';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
-import HtmlHead from 'components/html-head/HtmlHead';
+import LayoutFullpage from '../../layout/LayoutFullpage.jsx';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
+import HtmlHead from '../../components/html-head/HtmlHead.jsx';
 
 const Unauthorized = () => {
   const title = 'Unauthorized';

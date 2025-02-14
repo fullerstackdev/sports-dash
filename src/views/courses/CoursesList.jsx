@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import { useWindowSize } from 'hooks/useWindowSize';
+import { useWindowSize } from '../../hooks/useWindowSize.jsx';
 import { Row, Col, Button, Form, Card, Modal } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import Rating from 'react-rating';
-import HtmlHead from 'components/html-head/HtmlHead';
-import BreadcrumbList from 'components/breadcrumb-list/BreadcrumbList';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import HtmlHead from '../../components/html-head/HtmlHead.jsx';
+import BreadcrumbList from '../../components/breadcrumb-list/BreadcrumbList.jsx';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
 
 const FilterMenuContent = () => {
   return (

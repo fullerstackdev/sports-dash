@@ -3,12 +3,12 @@ import { useDispatch, useSelector } from 'react-redux';
 import classNames from 'classnames';
 import { MENU_PLACEMENT, MENU_BEHAVIOUR } from '../../../constants.js';
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
-import { getMenuItems } from '../../../routing/helper';
-import { useWindowSize } from 'hooks/useWindowSize';
-import { useWindowScroll } from 'hooks/useWindowScroll';
-import routesAndMenuItems from "../../../routes.js";
-import { layoutShowingNavMenu } from 'layout/layoutSlice';
-import MainMenuItems from './MainMenuItems';
+import { getMenuItems } from '../../../routing/helper.jsx';
+import { useWindowSize } from '../../../hooks/useWindowSize.jsx';
+import { useWindowScroll } from '../../../hooks/useWindowScroll.jsx';
+import routesAndMenuItems from '../../../routes.js';
+import { layoutShowingNavMenu } from '../../../layout/layoutSlice.jsx';
+import MainMenuItems from './MainMenuItems.jsx';
 import {
   menuChangeAttrMenuAnimate,
   menuChangeAttrMobile,
@@ -17,8 +17,8 @@ import {
   menuChangeNavClasses,
   menuChangePinButtonEnable,
   menuChangePlacementStatus,
-} from './menuSlice';
-import { checkBehaviour, checkPlacement, isDeeplyDiffBehaviourStatus, isDeeplyDiffPlacementStatus } from './helper';
+} from './menuSlice.jsx';
+import { checkBehaviour, checkPlacement, isDeeplyDiffBehaviourStatus, isDeeplyDiffPlacementStatus } from './helper.jsx';
 
 const MainMenu = () => {
   const dispatch = useDispatch();

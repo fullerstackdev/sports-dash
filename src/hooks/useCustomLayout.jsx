@@ -8,8 +8,8 @@ import {
   menuChangeUseSidebar,
   menuResetBreakpoints,
   menuResetUseSidebar,
-} from 'layout/nav/main-menu/menuSlice';
-import { settingsChangeColor, settingsChangeLayout, settingsChangeNavColor, settingsChangeRadius, settingsResetLayout } from 'settings/settingsSlice';
+} from '../layout/nav/main-menu/menuSlice.jsx';
+import { settingsChangeColor, settingsChangeLayout, settingsChangeNavColor, settingsChangeRadius, settingsResetLayout } from '../settings/settingsSlice.jsx';
 
 const useCustomLayout = ({
   placement = null,

@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { Chart, registerables } from 'chart.js';
 
 import { useSelector } from 'react-redux';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import CsLineIcons from '../../../cs-line-icons/CsLineIcons.jsx';
 
 const YourTimeChart = () => {
   const { themeValues } = useSelector((state) => state.settings);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Dropdown } from 'react-bootstrap';
-import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
-import ScrollspyContent from './ScrollspyContent';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx'; // FIXED (2 ups to src)
+import ScrollspyContent from './ScrollspyContent.jsx';         // if it's .jsx
 
 const ScrollspyToggle = React.forwardRef(({ children, onClick }, ref) => (
   <a

@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import { Col } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
 import { useLocation } from 'react-router-dom';
-import { scrollspySetItems } from './scrollspySlice';
-import ScrollspyContent from './ScrollspyContent';
+import { scrollspySetItems } from './scrollspySlice.jsx'; // if it's .jsx
+import ScrollspyContent from './ScrollspyContent.jsx'; // if it's .jsx
 
 const Scrollspy = ({ items = [], width = '' }) => {
   const dispatch = useDispatch();

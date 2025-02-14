@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import GlideJs from '@glidejs/glide';
 import '@glidejs/glide/dist/css/glide.core.min.css';
-import { useWindowSize } from 'hooks/useWindowSize';
+import { useWindowSize } from '../../hooks/useWindowSize.jsx';    // FIXED
 import { useSelector } from 'react-redux';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';     // FIXED
 
 const Glide = ({
   className = '',

@@ -2,10 +2,10 @@ import React from 'react';
 import { Row, Col, Card, ProgressBar, Button, Badge } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import Rating from 'react-rating';
-import Glide from 'components/carousel/Glide';
-import HtmlHead from 'components/html-head/HtmlHead';
-import BreadcrumbList from 'components/breadcrumb-list/BreadcrumbList';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import Glide from '../../components/carousel/Glide.jsx';
+import HtmlHead from '../../components/html-head/HtmlHead.jsx';
+import BreadcrumbList from '../../components/breadcrumb-list/BreadcrumbList.jsx';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
 import YourTimeChart from './components/YourTimeChart';
 
 const ElearningDashboard = () => {

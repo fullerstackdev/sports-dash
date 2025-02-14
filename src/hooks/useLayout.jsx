@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setThemeValues } from '../settings/settingsSlice';
-import useModalPaddingFix from './useModalPaddingFix';
+import { setThemeValues } from '../settings/settingsSlice.jsx';
+import useModalPaddingFix from './useModalPaddingFix.jsx';
 
 const useLayout = () => {
   const { color, layout, radius, navColor } = useSelector((state) => state.settings);

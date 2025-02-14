@@ -7,11 +7,16 @@ const BreadcrumbList = ({ items = [{ to: '/', text: 'Home' }], basePath = DEFAUL
   return (
     <Breadcrumb className="breadcrumb-container d-inline-block">
       {items.map((breadcrumb, bIndex) => (
-        <Breadcrumb.Item key={`breadCrumb.${bIndex}`} linkAs={Link} linkProps={{ to: `${basePath}${breadcrumb.to}` }}>
+        <Breadcrumb.Item
+          key={`breadCrumb.${bIndex}`}
+          linkAs={Link}
+          linkProps={{ to: `${basePath}${breadcrumb.to}` }}
+        >
           {breadcrumb.title || breadcrumb.text}
         </Breadcrumb.Item>
       ))}
     </Breadcrumb>
   );
 };
+
 export default BreadcrumbList;

@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import classNames from 'classnames';
 import { useDispatch, useSelector } from 'react-redux';
 import { MENU_BEHAVIOUR } from '../../constants.js';
-import CsLineIcons from '../../cs-line-icons/CsLineIcons';
-import { settingsChangeColor } from '../../settings/settingsSlice';
-import IconMenuNotifications from './notifications/Notifications';
-import SearchModal from './search/SearchModal';
-import { menuChangeBehaviour } from './main-menu/menuSlice';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
+import { settingsChangeColor } from '../../settings/settingsSlice.jsx';
+import IconMenuNotifications from './notifications/Notifications.jsx';
+import SearchModal from './search/SearchModal.jsx';
+import { menuChangeBehaviour } from './main-menu/menuSlice.jsx';
 
 const NavIconMenu = () => {
   const { pinButtonEnable, behaviour } = useSelector((state) => state.menu);

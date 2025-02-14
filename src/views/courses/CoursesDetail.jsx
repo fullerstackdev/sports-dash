@@ -2,9 +2,9 @@ import React from 'react';
 import { Row, Col, Card, Button, ProgressBar } from 'react-bootstrap';
 import Plyr from 'plyr-react';
 import Rating from 'react-rating';
-import HtmlHead from 'components/html-head/HtmlHead';
-import BreadcrumbList from 'components/breadcrumb-list/BreadcrumbList';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import HtmlHead from '../../components/html-head/HtmlHead.jsx';        // FIXED
+import BreadcrumbList from '../../components/breadcrumb-list/BreadcrumbList.jsx'; // FIXED
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';        // FIXED
 
 const PurePlyr = React.memo(() => {
   const videoSrc = {

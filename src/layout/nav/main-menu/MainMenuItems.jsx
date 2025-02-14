@@ -4,11 +4,11 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { useIntl } from 'react-intl';
 import classNames from 'classnames';
 import { Collapse, Dropdown } from 'react-bootstrap';
-import { DEFAULT_SETTINGS, USE_MULTI_LANGUAGE } from 'config.js';
-import { MENU_PLACEMENT } from 'constants.js';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
-import { layoutShowingNavMenu } from 'layout/layoutSlice';
-import { menuChangeCollapseAll } from './menuSlice';
+import { DEFAULT_SETTINGS, USE_MULTI_LANGUAGE } from '../../../config.js';
+import { MENU_PLACEMENT } from '../../../constants.js';
+import CsLineIcons from '../../../cs-line-icons/CsLineIcons.jsx';
+import { layoutShowingNavMenu } from '../../../layout/layoutSlice.jsx';
+import { menuChangeCollapseAll } from './menuSlice.jsx';
 
 const HorizontalMenuDropdownToggle = memo(
   forwardRef(({ children, onClick, href = '#', active = false }, ref) => (

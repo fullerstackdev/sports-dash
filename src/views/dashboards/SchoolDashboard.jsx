@@ -2,10 +2,10 @@ import React from 'react';
 import { Row, Col, Card, Button, Badge } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import Rating from 'react-rating';
-import HtmlHead from 'components/html-head/HtmlHead';
-import BreadcrumbList from 'components/breadcrumb-list/BreadcrumbList';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
-import ScrollByCount from 'components/scroll-by-count/ScrollByCount';
+import HtmlHead from '../../components/html-head/HtmlHead.jsx';
+import BreadcrumbList from '../../components/breadcrumb-list/BreadcrumbList.jsx';
+import CsLineIcons from '../../../cs-line-icons/CsLineIcons.jsx';
+import ScrollByCount from '../../components/scroll-by-count/ScrollByCount.jsx';
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
 
 const SchoolDashboard = () => {

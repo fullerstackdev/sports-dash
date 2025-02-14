@@ -3,8 +3,8 @@ import { useSelector } from 'react-redux';
 import { Alert, Button } from 'react-bootstrap';
 import GlideJs from '@glidejs/glide';
 import '@glidejs/glide/dist/css/glide.core.min.css';
-import { useWindowSize } from 'hooks/useWindowSize';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import { useWindowSize } from '../../hooks/useWindowSize.jsx'; // If needed
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx'; // FIXED
 
 const Error = () => (
   <Alert variant="info">
