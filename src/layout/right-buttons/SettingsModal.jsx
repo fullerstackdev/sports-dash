@@ -5,8 +5,8 @@ import { Card, Figure, Modal } from 'react-bootstrap';
 
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
 import { LAYOUT, MENU_BEHAVIOUR, NAV_COLOR, RADIUS, THEME_COLOR } from '../../constants.js';
-import { menuChangeBehaviour } from 'layout/nav/main-menu/menuSlice.jsx';
-import { settingsChangeColor, settingsChangeLayout, settingsChangeNavColor, settingsChangeRadius } from 'settings/settingsSlice';
+import { menuChangeBehaviour } from '../../layout/nav/main-menu/menuSlice.jsx';
+import { settingsChangeColor, settingsChangeLayout, settingsChangeNavColor, settingsChangeRadius } from '../../settings/settingsSlice.jsx';
 
 const OptionGroup = ({ label = '', children, noContainer = false }) => (
   <div className="mb-5">

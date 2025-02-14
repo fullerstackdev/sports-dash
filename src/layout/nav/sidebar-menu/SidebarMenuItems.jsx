@@ -2,8 +2,8 @@ import React from 'react';
 import classNames from 'classnames';
 import { NavLink, useLocation } from 'react-router-dom';
 import { useIntl } from 'react-intl';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
-import { USE_MULTI_LANGUAGE } from 'config.js';
+import CsLineIcons from '../../../cs-line-icons/CsLineIcons.jsx';
+import { USE_MULTI_LANGUAGE } from '../../../config.js';
 
 const SidebarMenuItems = React.memo(({ menuItems = [] }) =>
   menuItems.map((item, index) => <SidebarMenuItem key={`menu.${item.path}.${index}`} id={item.path} item={item} />)

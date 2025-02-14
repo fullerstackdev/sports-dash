@@ -1,12 +1,12 @@
 import React, { useCallback, useEffect, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import classNames from 'classnames';
-import { MENU_PLACEMENT, MENU_BEHAVIOUR } from 'constants.js';
+import { MENU_PLACEMENT, MENU_BEHAVIOUR } from '../../../constants.js';
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
-import { getMenuItems } from 'routing/helper';
+import { getMenuItems } from '../../../routing/helper';
 import { useWindowSize } from 'hooks/useWindowSize';
 import { useWindowScroll } from 'hooks/useWindowScroll';
-import routesAndMenuItems from 'routes.js';
+import routesAndMenuItems from "../../../routes.js";
 import { layoutShowingNavMenu } from 'layout/layoutSlice';
 import MainMenuItems from './MainMenuItems';
 import {

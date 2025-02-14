@@ -9,7 +9,7 @@ import Layout from './layout/Layout';
 // import routing modules
 import RouteIdentifier from './routing/components/RouteIdentifier.jsx';
 import { getRoutes } from './routing/helper';
-import routesAndMenuItems from './routes.jsx';
+import routesAndMenuItems from './routes';
 import Loading from './components/loading/Loading';
 
 const App = () => {

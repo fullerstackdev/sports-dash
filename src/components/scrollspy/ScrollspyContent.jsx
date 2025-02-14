@@ -1,5 +1,5 @@
 import React from 'react';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
 
 const ScrollspyContent = React.memo(({ items }) => (
   <ul className="nav flex-column">
