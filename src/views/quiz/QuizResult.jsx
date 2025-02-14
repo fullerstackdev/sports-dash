@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col, Card, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import HtmlHead from 'components/html-head/HtmlHead';
-import BreadcrumbList from 'components/breadcrumb-list/BreadcrumbList';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import HtmlHead from '../../components/html-head/HtmlHead.jsx';
+import BreadcrumbList from '../../components/breadcrumb-list/BreadcrumbList.jsx';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
 
 const QuizResult = () => {
   const title = 'Quiz Result';

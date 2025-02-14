@@ -1,10 +1,10 @@
 import React from 'react';
 import { Row, Col, Card } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import HtmlHead from 'components/html-head/HtmlHead';
-import BreadcrumbList from 'components/breadcrumb-list/BreadcrumbList';
-import Scrollspy from 'components/scrollspy/Scrollspy';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
+import HtmlHead from '../../components/html-head/HtmlHead.jsx';
+import BreadcrumbList from '../../components/breadcrumb-list/BreadcrumbList.jsx';
+import Scrollspy from '../../components/scrollspy/Scrollspy.jsx';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
 
 const Material = () => {
   const title = 'Material';

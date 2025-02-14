@@ -2,10 +2,10 @@ import React from 'react';
 import { Row, Col, Card, Button, InputGroup, FormControl } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import Rating from 'react-rating';
-import HtmlHead from 'components/html-head/HtmlHead';
-import BreadcrumbList from 'components/breadcrumb-list/BreadcrumbList';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
-import Clamp from 'components/clamp';
+import HtmlHead from '../../components/html-head/HtmlHead.jsx';
+import BreadcrumbList from '../../components/breadcrumb-list/BreadcrumbList.jsx';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
+import Clamp from '../../components/clamp/Clamp.jsx';
 
 const InstructorDetail = () => {
   const title = 'Instructor Detail';

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import { useWindowSize } from 'hooks/useWindowSize';
+import { useWindowSize } from '../../hooks/useWindowSize.jsx';
 import { Row, Col, Button, Card, Accordion, useAccordionButton, Modal } from 'react-bootstrap';
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
 import { NavLink } from 'react-router-dom';
 import Plyr from 'plyr-react';
-import HtmlHead from 'components/html-head/HtmlHead';
-import BreadcrumbList from 'components/breadcrumb-list/BreadcrumbList';
-import CsLineIcons from 'cs-line-icons/CsLineIcons';
-import useCustomLayout from 'hooks/useCustomLayout';
+import HtmlHead from '../../components/html-head/HtmlHead.jsx';
+import BreadcrumbList from '../../components/breadcrumb-list/BreadcrumbList.jsx';
+import CsLineIcons from '../../cs-line-icons/CsLineIcons.jsx';
+import useCustomLayout from '../../hooks/useCustomLayout.jsx';
 
 const PurePlyr = React.memo(() => {
   const videoSrc = {
